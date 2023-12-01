@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="calculatorMain">
+      <div class="display">
+        <div class="upper__display">
+          <input type="text" id="upper" />
+        </div>
+        <div class="lower__display">
+          <input type="text" id="lower" />
+        </div>
+      </div>
+      <div class="switch">
+        <div class="switch__names">
+          <div class="scientific inactive__name">SCIENTIFIC</div>
+          <div class="normal">NORMAL</div>
+        </div>
+        <div class="hr__line">
+          <hr />
+        </div>
+        <div class="buttons">
+          <div class="scientific__buttons inactive_scientificBtns">
+            <div class="scientific__leftButtons">
+              <input type="button" value="Abs" />
+              <input type="button" value="x&sup3;" />
+              <input type="button" value="&Sqrt;" />
+              <input type="button" value="Hyp" />
+              <input type="button" value="Sin" />
+            </div>
+            <div class="scientific__middleButtons">
+              <input type="button" value="<" />
+              <input type="button" value=">" />
+              <input type="button" value="(" />
+              <input type="button" value=")" />
+            </div>
+            <div class="scientific__rightButtons">
+              <input type="button" value="Log" />
+              <input type="button" value="Ln" />
+              <input type="button" value="x&sup2;" />
+              <input type="button" value="Cos" />
+              <input type="button" value="Tan" />
+            </div>
+          </div>
+          <div class="normal__buttons">
+            <div class="normal__leftButtons">
+              <input type="button" value="7" />
+              <input type="button" value="8" />
+              <input type="button" value="9" />
+              <input type="button" value="4" />
+              <input type="button" value="5" />
+              <input type="button" value="6" />
+              <input type="button" value="1" />
+              <input type="button" value="2" />
+              <input type="button" value="3" />
+              <input type="button" value="0" />
+              <input type="button" value="." />
+              <input type="button" value="ANS" />
+            </div>
+            <div class="normal__rightButtons">
+              <input type="button" value="DEL" />
+              <input type="button" value="AC" />
+              <input type="button" value="X" />
+              <input type="button" value="/" />
+              <input type="button" value="+" />
+              <input type="button" value="-" />
+              <input type="button" value="=" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
