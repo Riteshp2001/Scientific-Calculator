@@ -34,6 +34,7 @@ function handleKeyPress(event) {
 
 	if (key === "Enter" || key === "=") {
 		enterButton.click();
+		upperDisplay.value = "";
 	}
 }
 
